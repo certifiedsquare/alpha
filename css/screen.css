@@ -1,0 +1,227 @@
+/* line 17, ../../../Users/quaziblue/.gem/ruby/1.8/gems/compass-0.11.3/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* line 20, ../../../Users/quaziblue/.gem/ruby/1.8/gems/compass-0.11.3/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+body {
+  line-height: 1;
+}
+
+/* line 22, ../../../Users/quaziblue/.gem/ruby/1.8/gems/compass-0.11.3/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 24, ../../../Users/quaziblue/.gem/ruby/1.8/gems/compass-0.11.3/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 26, ../../../Users/quaziblue/.gem/ruby/1.8/gems/compass-0.11.3/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 28, ../../../Users/quaziblue/.gem/ruby/1.8/gems/compass-0.11.3/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 101, ../../../Users/quaziblue/.gem/ruby/1.8/gems/compass-0.11.3/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 30, ../../../Users/quaziblue/.gem/ruby/1.8/gems/compass-0.11.3/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 115, ../../../Users/quaziblue/.gem/ruby/1.8/gems/compass-0.11.3/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+/* line 34, ../scss/_semantic.scss */
+body {
+  width: 100%;
+  *zoom: 1;
+}
+/* line 25, ../scss/_semantic.scss */
+body:before, body:after {
+  content: "";
+  display: table;
+}
+/* line 26, ../scss/_semantic.scss */
+body:after {
+  clear: both;
+}
+
+/* line 14, ../scss/screen.scss */
+header {
+  background: red;
+  color: white;
+}
+
+/* line 15, ../scss/screen.scss */
+#main {
+  background: yellow;
+  color: black;
+}
+
+/* line 16, ../scss/screen.scss */
+footer {
+  background: blue;
+  color: white;
+}
+
+/* line 23, ../scss/screen.scss */
+img {
+  display: block;
+}
+
+/* line 30, ../scss/screen.scss */
+#wrap {
+  width: 960px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+/* line 32, ../scss/screen.scss */
+.row {
+  display: block;
+  width: 980.0px;
+  margin: 0 -10px;
+  *zoom: 1;
+}
+/* line 25, ../scss/_semantic.scss */
+.row:before, .row:after {
+  content: "";
+  display: table;
+}
+/* line 26, ../scss/_semantic.scss */
+.row:after {
+  clear: both;
+}
+
+/* line 34, ../scss/screen.scss */
+header, footer {
+  *zoom: 1;
+}
+/* line 25, ../scss/_semantic.scss */
+header:before, header:after, footer:before, footer:after {
+  content: "";
+  display: table;
+}
+/* line 26, ../scss/_semantic.scss */
+header:after, footer:after {
+  clear: both;
+}
+
+/* line 35, ../scss/screen.scss */
+#content {
+  display: block;
+  width: 980.0px;
+  margin: 0 -10px;
+  *zoom: 1;
+}
+/* line 25, ../scss/_semantic.scss */
+#content:before, #content:after {
+  content: "";
+  display: table;
+}
+/* line 26, ../scss/_semantic.scss */
+#content:after {
+  clear: both;
+}
+
+/* line 36, ../scss/screen.scss */
+.primary {
+  display: inline;
+  float: left;
+  width: 700px;
+  margin: 0 10px;
+  background: pink;
+}
+
+/* line 37, ../scss/screen.scss */
+.secondary {
+  display: inline;
+  float: left;
+  width: 220px;
+  margin: 0 10px;
+  background: aqua;
+}
+
+/* line 45, ../scss/screen.scss */
+#logo {
+  display: inline;
+  float: left;
+  width: 140px;
+  margin: 0 10px;
+}
+
+/* line 46, ../scss/screen.scss */
+.site-nav {
+  display: inline;
+  float: left;
+  width: 780px;
+  margin: 0 10px;
+}
+
+/* line 50, ../scss/screen.scss */
+.nav {
+  list-style: none;
+  margin-left: 0;
+}
+/* line 51, ../scss/screen.scss */
+.nav li {
+  display: inline;
+}
+/* line 52, ../scss/screen.scss */
+.nav a {
+  display: inline-block;
+}
+
+/* line 55, ../scss/screen.scss */
+.site-nav {
+  background: #eee;
+}
+/* line 56, ../scss/screen.scss */
+.site-nav a {
+  padding: 5px 10px;
+}
+/* line 57, ../scss/screen.scss */
+.site-nav .selected a {
+  color: green;
+}
+
+/* line 62, ../scss/screen.scss */
+.colophon, .copyright {
+  display: inline;
+  float: left;
+  width: 940px;
+  margin: 0 10px;
+}

@@ -1,0 +1,65 @@
+
+
+
+
+@import "compass/reset";	// Compass Reset
+@import "compass/css3";		// Compass CSS3
+
+@import "semantic";			// Semantic
+
+
+
+
+//	================ FOR TESTING ================
+header { background: red; color: white; }
+#main { background: yellow; color: black; }
+footer { background: blue; color: white; }
+
+
+
+
+//	================ GENERAL ================
+
+img { display: block; }
+
+
+
+
+//	================ SEMANTIC ================
+
+#wrap { width: $total-width; margin: 0 auto; overflow: hidden; }
+//.wrap { width: $total-width; margin: 0 auto; overflow: hidden; }
+.row { @include row(); }
+
+header, footer { @include clearfix(); }
+#content { @include row(); }
+.primary { @include column(9); background: pink; }
+.secondary { @include column(3); background: aqua; }
+
+
+
+
+//	================ STYLES ================
+
+//	-------- header --------
+#logo { @include column(2); }
+.site-nav { @include column(10); }
+
+
+//	-------- navigation --------
+.nav { list-style: none; margin-left: 0;
+	li { display: inline; }
+	a { display: inline-block; }
+}
+
+.site-nav { background: #eee;
+	a { padding: 5px 10px; }
+	.selected a { color: green; }
+}
+
+
+//	-------- footer --------
+.colophon, .copyright { @include column(12); }
+
+
+
